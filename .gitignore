@@ -1,0 +1,26 @@
+# ===== API 密钥 — 禁止上传 =====
+.env
+.env.local
+*.key
+*.pem
+**/credentials.json
+
+# ===== IDE =====
+.idea/
+*.iml
+.vscode/
+out/
+
+# ===== Java =====
+*.class
+*.jar
+*.war
+*.log
+target/
+build/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+*.swp
+*~
